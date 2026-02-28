@@ -1,6 +1,6 @@
-#define BLYNK_TEMPLATE_ID "TMPL6aUh65nGe"   // Ganti dengan Template ID kau
+#define BLYNK_TEMPLATE_ID "Template ID"   // Ganti dengan Template ID kau
 #define BLYNK_TEMPLATE_NAME "esp32dht11"
-#define BLYNK_AUTH_TOKEN "KRjCe2I_zfEexrAiYnNyzV0kQlxZYRuU" // Paste Auth Token dari email Blynk
+#define BLYNK_AUTH_TOKEN "Token" // Paste Auth Token dari email Blynk
 
 #include <WiFi.h>
 #include <BlynkSimpleEsp32.h>
@@ -11,8 +11,8 @@
 #define LED_PIN 27         // Pin LED
 
 
-char ssid[] = "HafizTM 2.4GHz";      // Nama WiFi rumah kau
-char pass[] = "h@f1z53355";        // Password WiFi
+char ssid[] = "wifi name";      // Nama WiFi rumah kau
+char pass[] = "xxxxxx";        // Password WiFi
 
 DHT dht(DHTPIN, DHTTYPE);
 
