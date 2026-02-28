@@ -12,7 +12,7 @@
 
 
 char ssid[] = "HafizTM 2.4GHz";      // Nama WiFi rumah kau
-char pass[] = "h@f1z5335";        // Password WiFi
+char pass[] = "h@f1z53355";        // Password WiFi
 
 DHT dht(DHTPIN, DHTTYPE);
 
